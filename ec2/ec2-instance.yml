@@ -5,7 +5,7 @@ Parameters:
     Description: The AMI id
     Type: String
   AvailabilityZone:
-    Description: The AZ for the instance
+    Description: AZ for the instance
     Type: String
 Resources:
   Ec2Instance:
