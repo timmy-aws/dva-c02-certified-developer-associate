@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 
 Parameters:
   ImageId:
-    Description: The AMI id
+    Description: The AMI id eg ami-0ea87431b78a82070 Amazon Linux
     Type: String
   AvailabilityZone:
     Description: AZ for the instance
