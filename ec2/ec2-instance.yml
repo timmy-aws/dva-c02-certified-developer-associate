@@ -7,9 +7,13 @@ Parameters:
   AvailabilityZone:
     Description: AZ for the instance
     Type: String
+  InstanceType:
+    Description: Eg. t2.micro
+    Type: String
 Resources:
   Ec2Instance:
     Type: AWS::EC2::Instance
     Properties:
       AvailabilityZone: !Ref AvailabilityZone
       ImageId: !Ref ImageId
+      InstanceType: !Ref InstanceType
